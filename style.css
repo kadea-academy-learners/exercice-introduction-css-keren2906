@@ -1,106 +1,78 @@
-*{
+/* Style de la page*/
+body {
+    background-color: white;
     text-align: center;
-    background-color: white;
-}
-
-body{
-    background-color: grey;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 5px 20px 5px;
+}
+
+/* Style de l'entete */
+.haut {
+    background-color: gainsboro;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Style main */
+main {
     padding: 10px;
-    border-radius: 5px;
+    background-color: gainsboro;
 }
 
-header{
-    background-color: grey;
-}
-
-h1,p{
-    background: gray;
-}
-
-main{
-    margin: 20px auto;
-    background-color: gray;
-}
-
-figure{
+/* Style de l'image */
+figure {
     background-color: white;
+    padding: 10px;
     margin: 0;
 }
 
-figure img{
-    max-width: 900px;
+figure img {
+    margin-top: 10px;
 }
 
-figcaption{
-    font-size: 0.9em;
-    padding: 10px;
+figcaption {
+    font-size: 80%;
+    margin-top: 10px;
 }
 
-section{
-    background-color: gray;
+/* Style section */
+section {
+    padding: 6px;
+    margin-top: 10px;
 }
 
-h2{
+h2 {
     font-size: 1.3em;
-    background-color: gray;
-    margin: 50px;
+    margin: 35px;
 }
 
-ul{
+.list {
     max-width: 500px;
     margin: auto;
-    background-color: gray;
 }
 
-ul li{
+.list li {
     text-align: left;
-    background-color: gray;
     margin-bottom: 15px;
 }
 
-ul li strong{
-    background-color: gray;
-}
-
-p{
+/* Style du blockquote et du paragraphe */
+.blo {
     text-align: left;
     max-width: 500px;
-    margin-left: 530px;
+    margin: auto;
     margin-top: 30px;
     margin-bottom: 10px;
+    font-style: italic;
 }
 
-blockquote{
-    margin-right: 14rem;
-    background-color: gray;
+.manger em {
+    margin-right: 13rem;
 }
 
-blockquote em{
-    font-style: normal;
-    background-color: gray;
-    margin-left: 50px;
-    max-width: 500px;
+/* Style du pied de la page */
+footer {
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
 }
-
-footer{
-    background-color: gray;
-}
-
-footer a{
-    color: purple;
-    text-decoration: none;
-    background-color: gray;
-}
-
-footer a:hover{
-    text-decoration: underline;
-}
-
-h3{
-    background-color: gray;
-    text-align: center;
-    font-size: 25px;
-    margin: 50px;
-}
-
