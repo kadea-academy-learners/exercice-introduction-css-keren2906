@@ -14,36 +14,36 @@ body {
 }
 
 /* Style main */
-main {
+.main-page {
     padding: 10px;
     background-color: gainsboro;
 }
 
 /* Style de l'image */
-figure {
+.figure-page {
     background-color: white;
     padding: 10px;
     margin: 0;
 }
 
-figure img {
+.figure-image {
     margin-top: 10px;
 }
 
-figcaption {
+.figcaption-caption {
     font-size: 80%;
     margin-top: 10px;
 }
 
 /* Style section */
-section {
+.section-timeline {
     padding: 6px;
     margin-top: 10px;
 }
 
-h2 {
+.h2-heading {
     font-size: 1.3em;
-    margin: 35px;
+    margin: 35px 0;
 }
 
 .list {
@@ -71,7 +71,7 @@ h2 {
 }
 
 /* Style du pied de la page */
-footer {
+.footer-page {
     background-color: gainsboro;
     padding: 10px;
     border-radius: 0 0 5px 5px;
