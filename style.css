@@ -1,3 +1,106 @@
+*{
+    text-align: center;
+    background-color: white;
+}
 
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
 
+header{
+    background-color: grey;
+}
+
+h1,p{
+    background: gray;
+}
+
+main{
+    margin: 20px auto;
+    background-color: gray;
+}
+
+figure{
+    background-color: white;
+    margin: 0;
+}
+
+figure img{
+    max-width: 900px;
+}
+
+figcaption{
+    font-size: 0.9em;
+    padding: 10px;
+}
+
+section{
+    background-color: gray;
+}
+
+h2{
+    font-size: 1.3em;
+    background-color: gray;
+    margin: 50px;
+}
+
+ul{
+    max-width: 500px;
+    margin: auto;
+    background-color: gray;
+}
+
+ul li{
+    text-align: left;
+    background-color: gray;
+    margin-bottom: 15px;
+}
+
+ul li strong{
+    background-color: gray;
+}
+
+p{
+    text-align: left;
+    max-width: 500px;
+    margin-left: 530px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+blockquote{
+    margin-right: 14rem;
+    background-color: gray;
+}
+
+blockquote em{
+    font-style: normal;
+    background-color: gray;
+    margin-left: 50px;
+    max-width: 500px;
+}
+
+footer{
+    background-color: gray;
+}
+
+footer a{
+    color: purple;
+    text-decoration: none;
+    background-color: gray;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+h3{
+    background-color: gray;
+    text-align: center;
+    font-size: 25px;
+    margin: 50px;
+}
 
