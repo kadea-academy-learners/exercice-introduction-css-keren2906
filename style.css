@@ -1,0 +1,91 @@
+/* Corps de la page*/
+body {
+    background-color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 5px 20px 5px;
+}
+
+/* Style du header */
+.header {
+    background-color: gainsboro;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Main */
+main {
+    padding: 10px;
+    background-color: gainsboro;
+}
+
+figure {
+    margin: 0;
+    background-color: white;
+    padding: 10px;
+}
+
+figure img {
+    max-width: 900px;
+    margin-top: 10px;
+}
+
+figcaption {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+/* Style section */
+section {
+    padding: 6px;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.container li {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.slogan {
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.citation {
+    margin-right: 14rem;
+}
+
+em {
+    margin-left: 20px;
+}
+
+/* Style du footer */
+footer {
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
