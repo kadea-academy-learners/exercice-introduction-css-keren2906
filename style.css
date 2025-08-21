@@ -1,4 +1,4 @@
-/* Style de la page*/
+/* Corps de la page*/
 body {
     background-color: white;
     text-align: center;
@@ -6,58 +6,58 @@ body {
     margin: 20px 5px 20px 5px;
 }
 
-/* Style de l'entete */
-.haut {
+/* Style du header */
+.header {
     background-color: gainsboro;
     padding: 5px;
     border-radius: 5px 5px 0 0;
 }
 
-/* Style main */
-.main-page {
+/* Main */
+main {
     padding: 10px;
     background-color: gainsboro;
 }
 
-/* Style de l'image */
-.figure-page {
+figure {
+    margin: 0;
     background-color: white;
     padding: 10px;
-    margin: 0;
 }
 
-.figure-image {
+figure img {
+    max-width: 900px;
     margin-top: 10px;
 }
 
-.figcaption-caption {
-    font-size: 80%;
+figcaption {
+    font-size: 0.9em;
     margin-top: 10px;
 }
 
 /* Style section */
-.section-timeline {
+section {
     padding: 6px;
     margin-top: 10px;
 }
 
-.h2-heading {
+h3 {
     font-size: 1.3em;
-    margin: 35px 0;
+    margin: 30px;
+    margin-bottom: 50px;
 }
 
-.list {
+.container {
     max-width: 500px;
     margin: auto;
 }
 
-.list li {
+.container li {
     text-align: left;
     margin-bottom: 15px;
 }
 
-/* Style du blockquote et du paragraphe */
-.blo {
+.slogan {
     text-align: left;
     max-width: 500px;
     margin: auto;
@@ -66,13 +66,26 @@ body {
     font-style: italic;
 }
 
-.manger em {
-    margin-right: 13rem;
+.citation {
+    margin-right: 14rem;
 }
 
-/* Style du pied de la page */
-.footer-page {
+em {
+    margin-left: 20px;
+}
+
+/* Style du footer */
+footer {
     background-color: gainsboro;
     padding: 10px;
     border-radius: 0 0 5px 5px;
+}
+
+footer a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
